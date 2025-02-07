@@ -1,5 +1,5 @@
 #[derive(Clone)]
-struct Marmita<'a> {
+struct Cardapio<'a> {
     pub arroz: &'a str,
     pub feijao: &'a str,
     pub proteina: &'a str,
@@ -8,9 +8,9 @@ struct Marmita<'a> {
 }
 
 fn main() {
-    let marmita1 = Marmita {
+    let marmita1 = Cardapio {
         arroz: "Branco",
-        feijao: "Feijoada",
+        feijao: "Feijão",
         proteina: "Frango",
         guarnicao: "Mandioca Frita",
         tamanho: "Média",
